@@ -1,13 +1,13 @@
 # Tool Learning Log
 
-Tool: **X**
+Tool: **D3**
 
-Project: **X**
+Project: **Baseball Stats**
 
 ---
 
-X/X/X:
-* Text
+10/29/2023:
+* I started to watch a video called [Data Visualization with D3, JavaScript, React - Full Course [2021]](https://www.youtube.com/watch?v=2LhoCfjm8R4)
 
 X/X/X:
 * Text
