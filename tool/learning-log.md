@@ -12,6 +12,14 @@ Project: **Baseball Stats**
 11/26/2023:
 * This week I learned how to create a dataset and print it out using D3.js
 
+12/17/2023:
+* This week I learned how to set the scales for the x and y axes
+const x = d3.scaleTime()
+.range([0, width]);
+
+const y = d3.scaleLinear()
+.range([height, 0]);
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
