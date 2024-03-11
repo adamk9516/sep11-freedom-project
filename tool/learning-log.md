@@ -45,26 +45,6 @@ svg.append("text")
   .attr("transform", "rotate(-90)")
   .text("SCORES (/100)");
 ```
-03/03/2024
-This past week I learned how to make a pie chart and how to input data into it using percentages. I also learned how to size the chart so it isn't too big that it takes up the whole webpage but isn't too small that it can't be seen.
-
-``` js
-var data = [
-  {"platform": "Android","percentage": 40.11},
-  {"platform": "Windows","percentage": 36.69},
-  {"platform": "iOS","percentage": 13.06}
-];
-```
-All the percentages add up to 100 to fill the whole area of the pie chart.
-``` js
-var svgWidth = 500, svgHeight = 300, radius = Math.min(svgWidth, svgHeight) / 2;
-var svg = d3.select('svg')
-  .attr("width", svgWidth)
-  .attr("height", svgHeight);
-```
-This will take the smallest number using `Math.min` and divide it by two to get the radius of the pie chart.
-
-My next step is to make the pie chart adaptable so when the user puts in their own data, they can have a pie chart with their own data.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
