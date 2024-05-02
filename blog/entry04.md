@@ -36,7 +36,8 @@ console.log(Math.round(ERA * 100) / 100);
 The variable "ERA" is multiplied by 100 to shift the decimal two places to the right. Then `Math.round` is used to round that number to the nearest whole number. Lastly the number is divided by 100, moving the 1's and 10's place back into decimals.
 
 I also created a pie chart using D3.js so the user could input data to visualize their statistics. 
-(FreedomProjectPic.png)
+(FreedomProjectPic.png)![Pie chart](FreedomProjectPic.png)
+
 
 For example if a pitcher were to use this, they would want to input how many strikes they threw for one data point, and how many balls they threw for the other data point. This way the user could see the ratio of strikes to balls.
 
